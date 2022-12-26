@@ -3,12 +3,10 @@
 *{
   box-sizing: border-box;
 }
-
 img{
     display: block;
     max-width: 100%;
 }
-
 body{
     font-family: 'Open Sans', sans-serif; 
 }
@@ -39,20 +37,17 @@ h1, h2, h3, h4, h5, h6{
     border-radius: 5px;
     margin-left: auto;
 }
-
 .nav{
     position: absolute;
     top: 60px;
     left: 0;
     width: 100%;
 }
-
 .menu{
     list-style: none;
     padding: 0;
     margin: 0;
 }
-
 .menu__link{
     display: block;
     padding: 15px;
@@ -60,7 +55,6 @@ h1, h2, h3, h4, h5, h6{
     text-decoration: none;
     color: #fff;
 }
-
 .menu__link:hover{
     background: white;
     color: #fba919;
