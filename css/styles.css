@@ -211,9 +211,23 @@ h1, h2, h3, h4, h5, h6{
     }
 }
 
+.info__titulo{
+  margin-top: 50px;  
+  font-size: 30px;  
+  text-align: center;
+}
+.cursos__descripcion{
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
 @media(min-width:768px){
     .cursos__titulo{
-        font-size: 40px;
+        font-size: 25px;
+        padding-top: 50px;
     }
     .contenedor{
         width: 80%;
@@ -243,25 +257,13 @@ h1, h2, h3, h4, h5, h6{
     .banner__titulo{
         font-size: 50px;
     }
-    .info__titulo{
-      margin-top: 15px;  
-      font-size: 30px;  
-      text-align: center;
-    }
-    .cursos__txt{
-        font-size: 20px;
+    .info__columna{
+        padding: 30px;
     }
     .cursos__txt{
         font-size: 16px;
     }
-    .cursos__descripcion{
-        padding: 10px;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
-    }
+    
 }
 @media(min-width:1024px){
     .banner__titulo{
