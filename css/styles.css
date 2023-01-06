@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6{
  }
 .contenedor{
     margin: auto;
-    width: 99%;
+    width: 100%;
 }
 /*------------------Estilos del header------------------*/
 
@@ -112,9 +112,7 @@ h1, h2, h3, h4, h5, h6{
     padding: 15px;
     margin-bottom: 30px;
 }
-.info__columna .info__img{
-    border-radius: 10px;
-  }
+
 
 /*-------------------Estilo de Cursos-------------------*/
 .cursos__columna{
@@ -163,9 +161,6 @@ h1, h2, h3, h4, h5, h6{
     height: 50px;
     line-height: 40px;
 }
-.info__columna{
-    border-radius: 20px;
-}
 
 /*-----------------Estilos Responsive-----------------*/
 @media(min-width:480px){
@@ -189,8 +184,8 @@ h1, h2, h3, h4, h5, h6{
     }
     .info__columna{
         width: 32%;
-
     }
+    
     .info__titulo{
         font-size: 30px;
         margin: 5px 0;
